@@ -61,7 +61,9 @@ function Header() {
     const style = {};
 
     return (
-    <h1 style={style} className="header">Fast React Pizza Co.</h1>
+    <header>
+        <h1 style={style} className="header">Fast React Pizza Co.</h1>
+    </header>
     );
 }
 
