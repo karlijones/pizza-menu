@@ -69,10 +69,10 @@ function Header() {
 
 function Menu() {
     return (
-    <div>
+    <main className="menu">
         <h2>Our menu</h2>
         <Pizza />
-    </div>
+    </main>
     );
 }
 
