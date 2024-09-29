@@ -49,7 +49,7 @@ const pizzaData = [
 
 function App() {
     return (
-        <div>
+        <div className="container">
         <Header />
         <Menu />
         <Footer />
@@ -58,7 +58,11 @@ function App() {
 }
 
 function Header() {
-    return <h1 style={{color: "red", fontSize: "48px", textTransform: "uppercase"}}>Fast React Pizza Co.</h1>;
+    const style = {color: "red", fontSize: "48px", textTransform: "uppercase"};
+
+    return (
+    <h1 style={style} className="header">Fast React Pizza Co.</h1>
+    );
 }
 
 function Menu() {
