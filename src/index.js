@@ -79,7 +79,7 @@ function Menu() {
 
         {numPizzas > 0 ? (
 
-           <>
+           <React.Fragment>
             <p>
             Authentic Italian cuisine. 6 creative dishes to choose from. All from 
             our stone oven, all organic, all delicious.
@@ -90,7 +90,7 @@ function Menu() {
                     <Pizza pizzaObj={pizza} key={pizza.name} />
                 ))}
             </ul>
-            </> 
+            </React.Fragment> 
         ) : null}
 
 
